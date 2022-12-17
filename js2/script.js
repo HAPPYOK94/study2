@@ -1,5 +1,7 @@
-const a = 2 < 3;
-const b = 10 > 20;
-console.log(a && b);
-console.log(a || b);
-console.log(!a);
+const a = 10;
+const b = 20;
+if (a > b) {
+  console.log("a가 더 큽니다!");
+} else {
+  console.log("b가 더 큽니다!");
+}

@@ -1,6 +1,6 @@
-for (let i = 0; i < 10; i++) {
-  if (i === 5) {
-    continue;
-  }
-  console.log(i);
+function something(a, b, ...rest) {
+  console.log(a);
+  console.log(b);
+  console.log(rest);
 }
+something(1, 2, 3, 4, 5);

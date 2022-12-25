@@ -1,6 +1,4 @@
-function something(a, b, ...rest) {
-  console.log(a);
-  console.log(b);
-  console.log(rest);
-}
-something(1, 2, 3, 4, 5);
+const arr = [1, 2, 3, 4, 5];
+const newArr = Array.from(arr);
+console.log(arr);
+console.log(newArr);

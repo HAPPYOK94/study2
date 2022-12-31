@@ -1,4 +1,3 @@
-const arr = [1, 2, 3];
-arr.forEach((number, index) => {
-  console.log("${index + 1}번째 요소 : ${number}");
-});
+const arr = ["hello", "world", "hi", "friend"];
+const key = arr.find((value) => value.length < 3);
+console.log(key);

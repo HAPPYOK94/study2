@@ -1,3 +1,2 @@
-const arr = ["hello", "world", "hi", "friend"];
-const key = arr.find((value) => value.length < 3);
-console.log(key);
+const arr = [1, 2, 3, 4, 5];
+const key = arr.findIndex((number) => number > 3);

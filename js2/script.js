@@ -1,9 +1,4 @@
-const user = {
-  name: "규옥",
-  age: 30,
-  job: "joplees",
-  getName() {
-    console.log(this.name);
-  },
-};
-user.getName();
+const obj = {};
+const key = propmt();
+obj[key] = key;
+console.log(obj);
